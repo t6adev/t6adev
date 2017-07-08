@@ -1,0 +1,6 @@
+{
+  "name": "tell-y site",
+  "description": "tell-y site by nextjs",
+  "keywords": ["node", "nextjs", "heroku"],
+  "image": "heroku/nodejs"
+}
