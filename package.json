@@ -1,0 +1,19 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "tell-y's web site",
+  "author": "tell-y",
+  "private": "true",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "npm run build",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^3.0.1-beta.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
