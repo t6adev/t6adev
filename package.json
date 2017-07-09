@@ -12,6 +12,8 @@
     "start": "next start -p $PORT"
   },
   "dependencies": {
+    "material-ui": "^1.0.0-alpha.21",
+    "material-ui-icons": "^1.0.0-alpha.19",
     "next": "^3.0.1-beta.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
