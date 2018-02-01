@@ -39,14 +39,20 @@ export default () =>
             <h3>Desktop Application</h3>
             <p>C#(Form, WPF)</p>
             <h3>Web Application</h3>
-            <p>Front End : HTML, CSS, JavaScript(jQuery, Bootstrap, MDL)</p>
-            <p>Back End : Node.js</p>
+            <p>Node.js</p>
             <h4>JS Tools</h4>
-            <p>Express.js, Jest, Mocha, Chai, ESLint, Babel, Webpack, Angular v1, React, Redux, Meteor, Nextjs</p>
+            <p>
+              Express.js, Babel, Webpack,
+              Meteor, React(Nextjs, Gatsbyjs), Redux, Angular v1,
+              React Native(only developed by Expo)
+              Bootstrap, MDL(material-ui)
+              Jest, Mocha, Chai, ESLint, Prettier,
+              Puppeteer
+            </p>
             <h3>Others</h3>
-            <p>Git(Github, Gitlab), Google Cloud Platform, Docker, Postgresql, MongoDB, Heroku, CircleCI</p>
+            <p>Git(Github, Gitlab), Google Cloud Platform(GAE, GCP, Datastore, Actions on Google, etc.), Docker, Postgresql, MongoDB, Heroku, CircleCI, Netlify, Zeit/Now</p>
             <h3>Almost Beginner</h3>
-            <p>PHP, GO, AWS, Azure, React Native</p>
+            <p>PHP, GO, AWS, Azure, React Native, GraphQL(Apollo)</p>
             <h2>Work History</h2>
             <ul>
               <li>静的・動的サイト作成業務（WordPressなどの構築含む）</li>
@@ -57,22 +63,25 @@ export default () =>
               <li>Node.jsを用いたCLIツール開発</li>
               <li>Angular v1によるWebアプリケーション開発</li>
               <li>React, ReduxによるWebアプリケーション開発</li>
+              <li>ReactによるWebサイト作成</li>
+              <li>Actions on Google(Google Homeアプリ)開発</li>
               <li>JS初心者、初学者へのハンズオン開催</li>
             </ul>
             <h2>Work Style</h2>
             <p>
-              リモートでのSlackやSkype等を用いた開発が好みです。<br />
+              リモートでのSlackやSkype等を用いたコミュニケーション、Gitを利用したコードレビュー体制での開発が好みです。<br />
               常に複数のお仕事を行っていくことで相乗効果が得られると信じています。
             </p>
             <h2>Introduce Myself</h2>
             <p>
               修士時代にロボットビジョン研究に従事(当時はC++)。その間、英語もろくに喋ることが出来ないのにアメリカへ1年間研究留学。<br />
-              帰国、卒業後、ソフトウェアエンジニアとしてフリーランスとなり今に至る。熊本出身、東京住まい。<br />
+              帰国、卒業後、ソフトウェアエンジニアとしてフリーランスとなり今に至る。熊本出身、東京住まい。87年度生まれ、現在一児の父。<br />
               Tellyというハンドルネームですが、名前のもじりです。
             </p>
             <p>
               JS一本で出来るweb開発の未来を信じてこの道を選択。数年経過し、世の中を見てJSで良かったと安心。RubyやPythonなどは未だに食わず嫌い。<br />
-              しかし、PHP, Rubyを選択しなかったのは求人数や収入面で後悔し、機械学習面ではPythonをやるべきか悩み中。
+              しかし、PHP, Rubyを選択しなかったのは求人数や収入面で後悔し、機械学習面ではPythonをやるべきか悩み中。<br />
+              ただし最終的には自前サービスをローンチしたいのでNodejs中心には変わらず。
             </p>
             <p>
               釣りが趣味。最近は知人の影響でクラフトビール好きに。また、日曜大工にハマり中。
