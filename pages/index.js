@@ -50,7 +50,7 @@ export default () =>
               Puppeteer
             </p>
             <h3>Others</h3>
-            <p>Git(Github, Gitlab), Google Cloud Platform(GAE, GCP, Datastore, Actions on Google, etc.), Docker, Postgresql, MongoDB, Heroku, CircleCI, Netlify, Zeit/Now</p>
+            <p>Git(Github, Gitlab), Google Cloud Platform(GAE, GCP, Datastore, Actions on Google, etc.), Docker, Postgresql, MongoDB, Heroku, CircleCI, Netlify, Zeit/Now, LINE BOT API</p>
             <h3>Almost Beginner</h3>
             <p>PHP, GO, AWS, Azure, React Native, GraphQL(Apollo)</p>
             <h2>Work History</h2>
@@ -65,6 +65,7 @@ export default () =>
               <li>React, ReduxによるWebアプリケーション開発</li>
               <li>ReactによるWebサイト作成</li>
               <li>Actions on Google(Google Homeアプリ)開発</li>
+              <li>LINE BOT開発</li>
               <li>JS初心者、初学者へのハンズオン開催</li>
             </ul>
             <h2>Work Style</h2>
