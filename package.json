@@ -4,18 +4,22 @@
   "description": "tell-y's web site",
   "author": "tell-y",
   "private": "true",
-  "main": "index.js",
   "scripts": {
-    "heroku-postbuild": "npm run build",
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "material-ui": "^1.0.0-alpha.21",
-    "material-ui-icons": "^1.0.0-alpha.19",
-    "next": "^3.0.1-beta.10",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.6",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@fontsource/m-plus-rounded-1c": "^4.5.2",
+    "framer-motion": "^6.2.8",
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-spring": "^9.4.3"
   }
 }
