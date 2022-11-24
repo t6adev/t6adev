@@ -1,4 +1,4 @@
-import { Box, Link } from '@chakra-ui/react';
+import { Box, Link, Text } from '@chakra-ui/react';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 
 import MyCard from '../src/MyCard';
@@ -18,6 +18,9 @@ const Links = () => (
             </Link>
           </Box>
         ))}
+        <Text fontSize={['sm', 'md']}>
+          * Tell_y is my old account name.
+        </Text>
       </Trail>
     </Box>
   </div>

@@ -12,8 +12,8 @@ My motivation is based on the desire to accomplish more with less skill. Do you 
 My skill stacks are fixed by React and Expo(React Native) recently. `,
       },
       {
-        title: `Hi, I’m a father of two sons`,
-        message: `In this age, there are lot of information which are a wide range of prices. Those make you happy or unhappy. YouTube can make you better or worse. Parents' actions lead to children's happiness. We have many opportunities to educate children in our daily lives. Not only schools.`,
+        title: `Hi, I'm a father of two sons`,
+        message: `In this age, there are lot of information which are a wide range of prices. Those make you happy or unhappy. YouTube can make you better or worse. Parent's actions lead to children's happiness. We have many opportunities to educate children in our daily lives. Not only schools.`,
       },
     ],
   },
@@ -28,24 +28,23 @@ As you age, we become more experienced, for better or worse. It is difficult to 
     ],
   },
   {
-    title: `Call me what you want and feel free to say “Hi”`,
+    title: `Call me what you want and feel free to say "Hi"`,
     subs: [
       {
         title: `My name is...`,
-        message: `I’m a Japanese who grew up in Kumamoto. When I was at childhood, I had been called “Teru”. In Japan, almost people use family name to call each other. So almost friends call me “Yamamoto”. If you are from a oversea country, you want to call me using my first name instead of “Yamamoto”. But let’s say Teruhisa or Yamamoto. Which one does your tongue prefer?
-Anyway, Should I explain why my account is built with “tell” + “y”?`,
+        message: `I'm a Japanese who grew up in Kumamoto. When I was at childhood, I had been called “Teru”. In Japan, almost people use family name to call each other. So almost friends call me “Yamamoto”. If you're from a oversea country, you'd call me using my first name instead of "Yamamoto". But let's say Teruhisa or Yamamoto. Which one does your tongue prefer?`,
       },
     ],
   },
 ];
 
 export const links = [
-  { href: 'https://twitter.com/tell_y_t', title: 'twitter.com/tell_y_t' },
-  { href: 'https://github.com/tell-y', title: 'github.com/tell-y' },
+  { href: 'https://twitter.com/t6adev', title: 'twitter.com/t6adev' },
+  { href: 'https://github.com/t6adev', title: 'github.com/t6adev' },
   { href: 'https://zenn.dev/tell_y', title: 'zenn.dev/tell_y' },
-  { href: 'https://qiita.com/tell-y', title: 'qiita.com/tell-y' },
-  { href: 'https://speakerdeck.com/tellyasspeaker', title: 'speakerdeck.com/tellyasspeaker' },
-  { href: 'https://slides.com/tell-y/', title: 'slides.com/tell-y' },
+  { href: 'https://qiita.com/t6adev', title: 'qiita.com/t6adev' },
+  { href: 'https://speakerdeck.com/t6adev', title: 'speakerdeck.com/t6adev' },
+  { href: 'https://slides.com/t6adev/', title: 'slides.com/t6adev' },
   { href: 'https://youtu.be/OGsR3O4qu6s?t=32039', title: 'React Native Matsuri 2021' },
   { href: 'https://tech-space-production.com/', title: 'Tech Space Production' },
 ];

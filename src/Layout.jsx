@@ -7,9 +7,9 @@ import { iconLink } from './introduction';
 import { menus } from './menus';
 import Trail from './Trail';
 
-const baseTitle = 'Tell-y - Teruhisa Yamamoto';
-const baseUrl = 'https://tell-y.com';
-const baseDescription = `This is Teruhisa Yamamoto's personal web site.`;
+const baseTitle = 'T6a = Teruhisa';
+const baseUrl = 'https://t6a.dev';
+const baseDescription = `This is Teruhisa's personal web site.`;
 
 const Layout = ({ children }) => {
   const outerPaddingXs = [6, 8, 16, 24];
@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
         <meta property="og:title" content={baseTitle} />
         <meta property="og:description" content={baseDescription} />
         {/* <meta property="og:image" content={ogImage} /> */}
-        <meta name="twitter:site" content="@tell_y_t" />
+        <meta name="twitter:site" content="@t6adev" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Box paddingX={outerPaddingXs} paddingY={6}>

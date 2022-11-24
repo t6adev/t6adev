@@ -28,7 +28,7 @@ const MyCard = () => {
         <Text fontSize={['sm', 'md']}>
           Software Developer / Father / Enthusiast of fishing and beer
         </Text>
-        <Text fontSize={['sm', 'md']}>Almost accounts name are based on “tell y”, /téli/.</Text>
+        <Text fontSize={['sm', 'md']}>What's your dev style?</Text>
       </Box>
     </AnimatedHStack>
   );

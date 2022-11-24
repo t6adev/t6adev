@@ -1,8 +1,8 @@
 {
-  "name": "site",
+  "name": "t6a.dev",
   "version": "1.0.0",
-  "description": "tell-y's web site",
-  "author": "tell-y",
+  "description": "T6a's web site",
+  "author": "t6adev",
   "private": "true",
   "scripts": {
     "dev": "next dev",
