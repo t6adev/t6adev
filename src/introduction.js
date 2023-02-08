@@ -39,12 +39,10 @@ As you age, we become more experienced, for better or worse. It is difficult to 
 ];
 
 export const links = [
-  { href: 'https://twitter.com/t6adev', title: 'twitter.com/t6adev' },
-  { href: 'https://github.com/t6adev', title: 'github.com/t6adev' },
-  { href: 'https://zenn.dev/tell_y', title: 'zenn.dev/tell_y' },
-  { href: 'https://qiita.com/t6adev', title: 'qiita.com/t6adev' },
-  { href: 'https://speakerdeck.com/t6adev', title: 'speakerdeck.com/t6adev' },
-  { href: 'https://slides.com/t6adev/', title: 'slides.com/t6adev' },
+  { href: 'https://zenn.dev/tell_y', title: 'zenn.dev' },
+  { href: 'https://qiita.com/t6adev', title: 'qiita.com' },
+  { href: 'https://speakerdeck.com/t6adev', title: 'speakerdeck.com' },
+  { href: 'https://slides.com/t6adev/', title: 'slides.com' },
   { href: 'https://youtu.be/OGsR3O4qu6s?t=32039', title: 'React Native Matsuri 2021' },
   { href: 'https://tech-space-production.com/', title: 'Tech Space Production' },
 ];
