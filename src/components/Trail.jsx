@@ -1,5 +1,6 @@
+'use client';
 import { Children } from 'react';
-import { useTrail, a } from 'react-spring';
+import { useTrail, a } from '@react-spring/web';
 
 const Trail = ({ children }) => {
   const items = Children.toArray(children);

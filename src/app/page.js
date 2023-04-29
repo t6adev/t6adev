@@ -1,6 +1,6 @@
-import MyCard from '../src/MyCard';
-import TopBanner from '../src/TopBanner';
-import MenuList from '../src/MenuList';
+import MyCard from '../components/MyCard';
+import TopBanner from '../components/TopBanner';
+import MenuList from '../components/MenuList';
 
 const Index = () => {
   return (

@@ -1,12 +1,10 @@
+'use client';
 import { useState } from 'react';
-import { HStack, Text } from '@chakra-ui/react';
-import { animated, config, useTransition } from 'react-spring';
+import { animated, config, useTransition } from '@react-spring/web';
 
-import { list } from './introduction';
+import { list } from '../introduction';
 
 const titles = list.map((i) => i.title);
-
-const AnimatedText = animated(Text);
 
 const TopBanner = () => {
   const [index, setIndex] = useState(0);
@@ -25,13 +23,13 @@ const TopBanner = () => {
   });
 
   return (
-    <HStack height={[70, 100]} justifyContent="center">
+    <div className="flex justify-center h-[70px] md:h-[100px]">
       {transitions((props, i) => (
-        <AnimatedText style={props} fontSize={['md', '3xl']} fontStyle="italic">
+        <animated.p style={props} className="text-md md:text-3xl italic">
           {titles[i]}
-        </AnimatedText>
+        </animated.p>
       ))}
-    </HStack>
+    </div>
   );
 };
 
