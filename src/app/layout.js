@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import './globals.css';
 import { mPlusRounded1c } from './fonts';
 import { iconLink } from '../introduction';
@@ -25,7 +26,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${mPlusRounded1c.className} bg-[#292929] text-white`}>
       <body>
-        <div className="py-12 px-8 md:px-24">{children}</div>
+        <div className="py-12 px-8 md:px-24">
+          {children}
+          <Analytics />
+        </div>
       </body>
     </html>
   );

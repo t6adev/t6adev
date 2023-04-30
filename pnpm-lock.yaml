@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@react-spring/web': ^9.7.2
+  '@vercel/analytics': ^1.0.0
   autoprefixer: ^10.4.14
   next: ^13.3.1
   postcss: ^8.4.23
@@ -13,6 +14,7 @@ specifiers:
 
 dependencies:
   '@react-spring/web': 9.7.2_biqbaboplfbrettd7655fr4n2y
+  '@vercel/analytics': 1.0.0_react@18.2.0
   next: 13.3.1_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -235,6 +237,14 @@ packages:
     resolution: {integrity: sha512-SjY/p4MmECVVEWspzSRpQEM3sjR17sP8PbGxELWrT+YZMBfiUyt1MRUNjMV23zohwlG2HYtCQOsCwsTHguXkyg==}
     dependencies:
       tslib: 2.5.0
+    dev: false
+
+  /@vercel/analytics/1.0.0_react@18.2.0:
+    resolution: {integrity: sha512-RQmj7pv82JwGDHrnKeRc6TtSw2U7rWNubc2IH0ernTzWTj02yr9zvIYiYJeztsBzrJtWv7m8Nz6vxxb+cdEtJw==}
+    peerDependencies:
+      react: ^16.8||^17||^18
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /any-promise/1.3.0:
