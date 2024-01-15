@@ -24,7 +24,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${mPlusRounded1c.className} bg-[#292929] text-white`}>
+    <html lang="en" className={`${mPlusRounded1c.variable} bg-[#292929] text-white`}>
       <body>
         <div className="py-12 px-8 md:px-24">
           {children}
