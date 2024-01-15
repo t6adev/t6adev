@@ -1,7 +1,12 @@
 import { Analytics } from '@vercel/analytics/react';
+import { Inter } from 'next/font/google';
 import './globals.css';
-import { mPlusRounded1c } from './fonts';
 import { iconLink } from '../introduction';
+
+const inter = Inter({
+  display: 'swap',
+  subsets: ['latin'],
+});
 
 const baseTitle = 'T6a = Teruhisa';
 const baseUrl = 'https://t6a.dev';
@@ -24,7 +29,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${mPlusRounded1c.variable} bg-[#292929] text-white`}>
+    <html lang="en" className={`${inter.className} bg-[#292929] text-white`}>
       <body>
         <div className="py-12 px-8 md:px-24">
           {children}
