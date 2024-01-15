@@ -13,7 +13,7 @@ const Index = () => {
       <MyCard />
       <MenuList />
       <h3 className="text-xl mb-2">My tweets</h3>
-      <div class="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>div:first-child]:mt-0">
+      <div className="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>div:first-child]:mt-0">
         {tweetIds.map((id) => (
           <Tweet id={id} key={id} />
         ))}
