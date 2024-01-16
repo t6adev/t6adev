@@ -1,6 +1,7 @@
 'use client';
 import { useSpring, animated, config } from '@react-spring/web';
 import { FaTwitter, FaYoutube, FaGithub, FaDiscord } from 'react-icons/fa';
+import { TbHandFinger } from 'react-icons/tb';
 
 import { iconLink } from '../introduction';
 
@@ -36,6 +37,9 @@ const MyCard = () => {
           </a>
           <a href="https://github.com/t6adev" target="_blank" rel="noreferrer">
             <FaGithub mx="2px" />
+          </a>
+          <a href="https://sizu.me/t6adev" target="_blank" rel="noreferrer">
+            <TbHandFinger mx="2px" />
           </a>
         </div>
         <p className="text-sm md:text-md leading-relaxed">Let's say Hi, in Tokyo or Discord.</p>
