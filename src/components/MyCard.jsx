@@ -1,8 +1,8 @@
 'use client';
+import Image from 'next/image';
 import { useSpring, animated, config } from '@react-spring/web';
 import { FaTwitter, FaYoutube, FaGithub, FaDiscord } from 'react-icons/fa';
-import { TbHandFinger } from 'react-icons/tb';
-
+import SizumeLogo from './sizume-logo.svg';
 import { iconLink } from '../introduction';
 
 const MyCard = () => {
@@ -39,7 +39,7 @@ const MyCard = () => {
             <FaGithub mx="2px" />
           </a>
           <a href="https://sizu.me/t6adev" target="_blank" rel="noreferrer">
-            <TbHandFinger mx="2px" />
+            <Image src={SizumeLogo} alt="sizu.me" width={16} height={16} />
           </a>
         </div>
         <p className="text-sm md:text-md leading-relaxed">Let's say Hi, in Tokyo or Discord.</p>
