@@ -38,8 +38,13 @@ const MyCard = () => {
           <a href="https://github.com/t6adev" target="_blank" rel="noreferrer">
             <FaGithub mx="2px" />
           </a>
-          <a href="https://sizu.me/t6adev" target="_blank" rel="noreferrer">
-            <Image src={SizumeLogo} alt="sizu.me" width={16} height={16} />
+          <a
+            href="https://sizu.me/t6adev"
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-full h-4 w-4 bg-white flex justify-center items-center"
+          >
+            <Image src={SizumeLogo} alt="sizu.me" width={14} height={14} />
           </a>
         </div>
         <p className="text-sm md:text-md leading-relaxed">Let's say Hi, in Tokyo or Discord.</p>
