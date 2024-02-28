@@ -5,19 +5,19 @@
   "author": "t6adev",
   "private": "true",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "waku dev --with-ssr",
+    "build": "waku build --with-ssr",
+    "start": "waku start --with-ssr"
   },
   "dependencies": {
     "@react-spring/web": "^9.7.2",
     "@vercel/analytics": "^1.0.0",
-    "next": "^14.0.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "18.3.0-canary-6c3b8dbfe-20240226",
+    "react-dom": "18.3.0-canary-6c3b8dbfe-20240226",
     "react-icons": "^4.8.0",
-    "react-tweet": "^3.2.0"
+    "react-server-dom-webpack": "18.3.0-canary-6c3b8dbfe-20240226",
+    "react-tweet": "^3.2.0",
+    "waku": "^0.19.4"
   },
   "devDependencies": {
     "@types/node": "20.11.21",
