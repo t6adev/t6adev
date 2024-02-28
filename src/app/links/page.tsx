@@ -1,7 +1,7 @@
-import Breadcrumb from '../../components/Breadcrumb';
-import MyCard from '../../components/MyCard';
-import Trail from '../../components/Trail';
-import { links } from '../../introduction';
+import Breadcrumb from '../../components/Breadcrumb.js';
+import MyCard from '../../components/MyCard.js';
+import Trail from '../../components/Trail.js';
+import { links } from '../../introduction.js';
 
 const Links = () => (
   <div>

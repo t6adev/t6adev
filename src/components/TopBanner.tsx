@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { animated, config, useTransition } from '@react-spring/web';
 
-import { list } from '../introduction';
+import { list } from '../introduction.js';
 
 const titles = list.map((i) => i.title);
 
