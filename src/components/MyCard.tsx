@@ -1,9 +1,8 @@
 'use client';
-import Image from 'next/image';
 import { useSpring, animated, config } from '@react-spring/web';
 import { FaTwitter, FaYoutube, FaGithub, FaDiscord } from 'react-icons/fa';
 import SizumeLogo from './sizume-logo.svg';
-import { iconLink } from '../introduction';
+import { iconLink } from '../introduction.js';
 
 const MyCard = () => {
   const props = useSpring({
@@ -27,16 +26,16 @@ const MyCard = () => {
         </p>
         <div className="flex space-x-2 leading-relaxed">
           <a href="https://twitter.com/t6adev" target="_blank" rel="noreferrer">
-            <FaTwitter mx="2px" />
+            <FaTwitter />
           </a>
           <a href="https://www.youtube.com/@t6adev" target="_blank" rel="noreferrer">
-            <FaYoutube mx="2px" />
+            <FaYoutube />
           </a>
           <a href="https://discord.com/invite/zPhh4KeBm5" target="_blank" rel="noreferrer">
-            <FaDiscord mx="2px" />
+            <FaDiscord />
           </a>
           <a href="https://github.com/t6adev" target="_blank" rel="noreferrer">
-            <FaGithub mx="2px" />
+            <FaGithub />
           </a>
           <a
             href="https://sizu.me/t6adev"
@@ -44,7 +43,7 @@ const MyCard = () => {
             rel="noreferrer"
             className="rounded-full h-4 w-4 bg-white flex justify-center items-center"
           >
-            <Image src={SizumeLogo} alt="sizu.me" width={14} height={14} />
+            <img src={SizumeLogo} alt="sizu.me" width={14} height={14} />
           </a>
         </div>
         <p className="text-sm md:text-md leading-relaxed">Let's say Hi, in Tokyo or Discord.</p>

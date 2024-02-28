@@ -1,10 +1,10 @@
 import { Tweet } from 'react-tweet';
 
-import MyCard from '../components/MyCard';
-import TopBanner from '../components/TopBanner';
-import MenuList from '../components/MenuList';
+import MyCard from '../components/MyCard.js';
+import TopBanner from '../components/TopBanner.js';
+import MenuList from '../components/MenuList.js';
 
-import { tweetIds } from '../tweets';
+import { tweetIds } from '../tweets.js';
 
 const Index = () => {
   return (
