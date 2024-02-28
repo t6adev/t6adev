@@ -1,8 +1,8 @@
 'use client';
-import { Children } from 'react';
+import { Children, type ReactNode } from 'react';
 import { useTrail, a } from '@react-spring/web';
 
-const Trail = ({ children }) => {
+const Trail = ({ children }: { children: ReactNode }) => {
   const items = Children.toArray(children);
   const trail = useTrail(items.length, {
     config: { mass: 5, tension: 2000, friction: 200 },
