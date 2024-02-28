@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import Trail from './Trail';
 
-const Breadcrumb = ({ title }) => {
+const Breadcrumb = ({ title }: { title: string }) => {
   return (
     <Trail>
       <div className="py-8">

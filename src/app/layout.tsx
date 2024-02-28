@@ -1,3 +1,4 @@
+import { type ReactNode } from 'react';
 import { Analytics } from '@vercel/analytics/react';
 import { Inter } from 'next/font/google';
 import './globals.css';
@@ -27,7 +28,7 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={`${inter.className} bg-[#292929] text-white`}>
       <body>
